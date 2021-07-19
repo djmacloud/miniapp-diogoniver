@@ -25,7 +25,7 @@ module.exports = {
 	// "public-key": "",
 
 	// Versao dos componentes
-	"ame-miniapp-components": "2.4.1",
+	"ame-miniapp-components": "2.6.1",
 	// Versao do SDK
-	"ame-super-app-client": "2.8.0"
+	"ame-super-app-client": "2.9.0"
 }
