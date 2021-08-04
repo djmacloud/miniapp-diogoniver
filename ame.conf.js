@@ -9,7 +9,7 @@ module.exports = {
   slug: "diogoniver",
 
   // Versao do mini app
-  version: "0.1.0",
+  version: "0.1.2",
 
   // Dados da sua empresa
   organization: {
@@ -18,14 +18,9 @@ module.exports = {
 
   // Chave para gerar a ordem/qrcode de pagamento (opcional)
   // "public-key": "",
-  // Chave para gerar a ordem/qrcode de pagamento (opcional)
-  // "public-key": "",
-
-	// Chave para gerar a ordem/qrcode de pagamento (opcional)
-	// "public-key": "",
 
 	// Versao dos componentes
-	"ame-miniapp-components": "2.6.1",
+	"ame-miniapp-components": "2.9.0",
 	// Versao do SDK
-	"ame-super-app-client": "2.9.0"
+	"ame-super-app-client": "2.11.0"
 }
