@@ -2,7 +2,6 @@ import Ame from "ame-super-app-client";
 
 export default class Home {
 
-
   gift = async (valor) => {
 
     try {
@@ -27,8 +26,6 @@ export default class Home {
         ]
       };
 
-      console.log(paymentOrder);
-
       await Ame.startPayment(paymentOrder)
       
     } catch (error) {
@@ -36,8 +33,7 @@ export default class Home {
       console.log(error);
       
     }
-
-  
+ 
   } 
 
 }
