@@ -3,7 +3,9 @@
     <View>
       <Header textAlign="center">Aniversário do Diogo Magalhães</Header>
       <Spacing size="md" />
-      <Paragraph size="xs">Este ano eu faço 37 anos. Ficando velho né? mas quanto mais velho mais xp, então este ano resolvi fazer um miniapp pra comemorar já que infelizmente (devido à pandemia) não posso chamar todos pra uma cerveja.</Paragraph>
+      <Paragraph size="xs" fontHeight="medium">Mais um aniversário chegando...</Paragraph>
+      <Spacing size="xs" />
+      <Paragraph size="xs" fontHeight="medium">Tô ficando velho né? mas quanto mais velho mais xp, então este ano resolvi fazer um miniapp pra utiliza-lo como exemplo de miniapp bem basicão e de quebra quem sabe ainda descolar um lanche de presente.</Paragraph>
       <Spacing size="md" />
     </View>
 
@@ -41,7 +43,7 @@
     rightIcon='right-next'
     rightIconColor='red'
     disabled={false}
-    onClick={() => this.gift(20000)}
+    onClick={() => this.gift(2000)}
     />
     <Spacing size="xxs" />
 
@@ -60,7 +62,7 @@
     rightIcon='right-next'
     rightIconColor='red'
     disabled={false}
-    onClick={() => this.gift(50000)}
+    onClick={() => this.gift(5000)}
     />
     <Spacing size="xxs" />
 
