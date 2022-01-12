@@ -6,6 +6,10 @@ export default class Home {
 
     try {
 
+      let userData = await Ame.askUserData()
+
+      console.log(userData);
+
       let item = { name: "Presentear Diogo Fagundes", price: valor, description: "Presente de aniversário para Diogo Fagundes" };
   
       let paymentOrder = {

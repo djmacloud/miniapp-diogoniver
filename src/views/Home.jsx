@@ -1,14 +1,21 @@
 <Window>
 	<View>
     <View>
-      <Header textAlign="center">Aniversário do Diogo Magalhães</Header>
-      <Spacing size="md" />
       <Paragraph size="xs" fontHeight="medium">Mais um aniversário chegando...</Paragraph>
       <Spacing size="xs" />
       <Paragraph size="xs" fontHeight="medium">Tô ficando velho né? mas quanto mais velho mais xp, então este ano resolvi fazer um miniapp pra utiliza-lo como exemplo de miniapp bem basicão e de quebra quem sabe ainda descolar um lanche de presente.</Paragraph>
-      <Spacing size="md" />
     </View>
-
+    
+    <View direction="column" align="center">
+      <Ads
+      path='/22158792083/MINIAPP_DIOGONIVER'
+      size={['fluid', [335, 110]]}
+      id={'div-gpt-ad-1637351762241-0'}
+      />
+    </View>
+    
+    <Spacing size="sm" />
+    
     <Card
     leftIcon='cinema-outline'
     leftIconColor='red'
