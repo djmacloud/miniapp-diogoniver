@@ -13,9 +13,27 @@
       id={'div-gpt-ad-1637351762241-0'}
       />
     </View>
-    
     <Spacing size="sm" />
-    
+
+    <Card
+    leftIcon='barbecue-outline'
+    leftIconColor='red'
+    title='Teste'
+    description='Fazer um teste rápido de pagamento'
+    descriptionProps={{ fontSize: 'xxxs', color: 'neutralcolor-dark' }}
+    subdescription="R$2,00"
+    subdescriptionProps={{
+      fontSize: 'micro',
+      fontWeight: 'bold',
+      color: 'amecolor-primary-lightest'
+    }}
+    rightIcon='right-next'
+    rightIconColor='red'
+    disabled={false}
+    onClick={() => this.gift(200)}
+    />
+    <Spacing size="xxs" />
+
     <Card
     leftIcon='cinema-outline'
     leftIconColor='red'
