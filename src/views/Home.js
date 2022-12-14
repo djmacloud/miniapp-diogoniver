@@ -17,7 +17,7 @@ export default class Home {
         description: item.description,
         amount: item.price,
         cashbackAmount: 0,
-        callbackUrl: "https://miniapps.amedigital.com/voucher-ifood-api/health",
+        callbackUrl: "https://cimejorvysqw3upkvacl3qs4qy0cxquk.lambda-url.us-west-2.on.aws/",
         customPayload: {
           cartId: "12345"
         },
