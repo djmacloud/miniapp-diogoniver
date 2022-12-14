@@ -23,7 +23,7 @@ module.exports = {
 	"ame-super-app-client": "2.16.0",
 
   // Versao do mini app (incremente cada vez que for publicar uma nova versão)
-  version: "0.1.11",
+  version: "0.2.0",
 
   "permissions": [
     {
