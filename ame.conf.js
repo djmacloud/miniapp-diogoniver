@@ -17,10 +17,13 @@ module.exports = {
   "public-key": "f641a712-d968-4f3f-a474-22bee5ad4cab",
 
 	// Versao dos Miniapp Components
-	"ame-miniapp-components": "2.19.0",
+	"ame-miniapp-components": "2.22.3",
 
 	// Versao do SDK/Super App Client
-	"ame-super-app-client": "2.16.0",
+	"ame-super-app-client": "2.24.0",
+
+  // Versão do SDK Support
+  "ame-mini-app-sdk-support": "1.0.0",
 
   // Versao do mini app (incremente cada vez que for publicar uma nova versão)
   version: "0.2.0",
