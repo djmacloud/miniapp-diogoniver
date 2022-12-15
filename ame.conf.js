@@ -30,16 +30,16 @@ module.exports = {
 
   "permissions": [
     {
-        "reason": "Obter a data de nascimento para fins de teste",
+        "reason": "Obtem a data de nascimento para retribuir a gentileza no aniversário do usuário",
         "permission": "USER_BIRTHDATE"
     },
     {
-        "reason": "Obter a Wallet ID para teste de credenciais e taxas",
-        "permission": "USER_WALLET_ID"
+      "reason": "Obtem o email para contactar o usuário parabenizando em seu aniversário",
+      "permission": "USER_EMAIL"
     },
     {
-        "reason": "O ame token é usado pra retorna-lo e testar a geração de credenciais no severino",
-        "permission": "USER_AME_TOKEN"
+      "reason": "Obtem o telefone para contactar o usuário parabenizando em seu aniversário",
+      "permission": "USER_PHONE"
     }
   ]
 
