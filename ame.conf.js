@@ -26,7 +26,7 @@ module.exports = {
   "ame-mini-app-sdk-support": "1.0.0",
 
   // Versao do mini app (incremente cada vez que for publicar uma nova versão)
-  version: "0.2.012",
+  version: "0.3.0",
 
   "permissions": [
     {
